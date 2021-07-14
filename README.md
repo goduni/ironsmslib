@@ -1,11 +1,11 @@
 # Iron Sms Library
 Library for API [iron-sms.com](https://iron-sms.com)
 
-#Features:  
+# Features:  
      [+] Full support API from 14.08.2021   
      [+] Support for both sync and async
 
-#Example
+# Example
 A small synchronous example
 ```
 from ironsms import SyncIronSMS
@@ -28,5 +28,5 @@ prices = api.get_prices('US')
 logger.info(f'USA prices: {prices}')
 ```
 
-#Install
+# Install
 `pip install ironsmslib`
